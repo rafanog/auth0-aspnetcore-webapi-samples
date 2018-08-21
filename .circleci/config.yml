@@ -56,7 +56,7 @@ jobs:
   01-Authorization:
     machine: true
     environment:
-      - AUTH0_CFG: 01-Authorization
+      - AUTH0_CFG: Quickstart/01-Authorization
       - SAMPLE_PATH: 01-Authorization
     <<: *defaults
 workflows:
